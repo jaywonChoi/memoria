@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level 2"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작은 숫자부터 큰 숫자를 눌러주세요."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_light"
+        />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/bt8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            android:scaleType="fitEnd"
+            android:src="@drawable/sixty" />
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/one"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+        <ImageButton
+            android:id="@+id/bt5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/eight"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/three"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+        <ImageButton
+            android:id="@+id/bt4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/six"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+        <ImageButton
+            android:id="@+id/bt6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/twenty"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bt7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/forty"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+        <ImageButton
+            android:id="@+id/bt9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/eighty"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+        <ImageButton
+            android:id="@+id/bt3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/five"
+            android:background="@android:color/transparent"
+            android:onClick="NumberClick2"
+            />
+    </LinearLayout>
+</LinearLayout>
